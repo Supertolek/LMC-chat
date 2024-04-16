@@ -1,0 +1,28 @@
+.ui-list {
+	display: block;
+	width: 450px;
+	height: 600px;
+	background-color: var(--color-1-light);
+	border-radius: 5px;
+}
+.ui-list-header {
+	display: block;
+	background-color: var(--color-1-lighter);
+	border-radius: 5px 5px 0px 0px;
+	padding: 10px;
+}
+.ui-list-header-title {
+	margin: 0px;
+	text-align: center;
+	font-variant: small-caps;
+}
+.ui-list-content-header-on {
+	box-shadow: inset 0px 5px 5px -5px rgba(0, 0, 0, 0.1);
+	padding: 4px;
+}
+.ui-list-content {
+	padding-top: 1px;
+}
+.ui-list-item {
+	margin: 4px;
+}

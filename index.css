@@ -1,0 +1,131 @@
+:root {
+	--grey-lighter: #fafafa;
+	--grey-light: #f1f1f1;
+	--grey-midlight: #d5d5d5;
+	--grey-middle: #aeaeae;
+	--grey-middark: #808080;
+	--grey-dark: #5d5d5d;
+	--color-1-lighter: #f1f4f5;
+	--color-1-light: #e6ecf0;
+	--color-1-midlight: #d0d5d9;
+	--color-1-middle: #a6afb8;
+	--color-1-middark: #798188;
+	--color-1-dark: #545c63;
+	--accentuation-color-1-lighter: #d6f6fc;
+	--accentuation-color-1-light: #a9e1eb;
+	--accentuation-color-1-midlight: #78c1cf;
+	--accentuation-color-1-middle: #4ea2b1;
+	--accentuation-color-1-middark: #267685;
+	--accentuation-color-1-dark: #0f5966;
+	--accentuation-color-2: #b15d4e;
+	/* text */
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* #list {
+	background-color: transparent;
+}
+
+p {
+	margin: 0px;
+}
+
+fluent-listbox {
+	outline: 0;
+} */
+
+body {
+	margin: 0px;
+	height: 100vh;
+	width: 100vw;
+}
+
+nav {
+	width: 25vw;
+	height: 90vh;
+	grid-row: 2;
+	grid-column: 1;
+}
+
+#nav-header {
+	width: 25vw;
+	height: 10vh;
+	background-color: var(--grey-midlight);
+	border-radius: 0px 0px 20px 0px;
+	grid-row: 1;
+	grid-column: 1;
+}
+
+#nav-header-inner {
+	display: flex;
+	width: calc(100% - 2vw);
+	height: calc(100% - 2vw);
+	margin: 1vw;
+}
+
+#nav-header-search-bar {
+	height: 100%;
+	width: calc(100% - 15vh);
+	background-color: var(--grey-light);
+}
+
+#nav-header-button {
+	height: calc(10vh - 2vw);
+	min-width: calc(10vh - 2vw);
+	margin-left: 1vw;
+	background-color: var(--grey-light);
+}
+
+#contact-bar {
+	width: 75vw;
+	height: 10vh;
+	grid-row: 1;
+	grid-column: 2;
+}
+
+#contact-bar-inner {
+	width: 73vw;
+	height: calc(10vh - 2vw);
+	background-color: var(--grey-lighter);
+	margin: 1vw;
+}
+
+#avatar {
+	width: calc(10vh - 2vw);
+	height: calc(10vh - 2vw);
+	border-radius: calc(10vh - 2vw);
+}
+
+#message-box {
+	width: 75vw;
+	height: 90vh;
+	background-color: var(--grey-lighter);
+	border-radius: 20px 0px 0px 0px;
+	grid-row: 2;
+	grid-column: 2;
+}
+
+#grid-view {
+	display: grid;
+	width: 100vw;
+	height: 100vh;
+}
+
+.g0 {
+	background-color: var(--grey-lighter);
+}
+.g1 {
+	background-color: var(--grey-light);
+}
+.g2 {
+	background-color: var(--grey-midlight);
+}
+.g3 {
+	background-color: var(--grey-middle);
+}
+.g4 {
+	background-color: var(--grey-middark);
+}
+.g5 {
+	background-color: var(--grey-dark);
+}
